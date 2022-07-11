@@ -1,8 +1,9 @@
 const map = L.map('map-template').setView([51.505, -0.09], 3);
 
-const tileURL = 'https://b.tile.openstreetmap.org/{z}/{x}/{y}.png';
+const tileURL =
+	'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=b7061d3c0fb54a409dee717c946dd025';
 const tileURL2 =
-	'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png';
+	'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=b7061d3c0fb54a409dee717c946dd025';
 
 const tile = L.tileLayer(tileURL2);
 
